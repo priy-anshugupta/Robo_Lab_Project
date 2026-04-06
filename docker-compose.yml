@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  isl-bridge:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - OPENAI_MODEL=gpt-4.1-mini
+      - TTS_BACKEND=gtts
+    volumes:
+      - ./models:/app/models
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,97 @@
+{
+  "version": "1.0",
+  "total_signs": 100,
+  "categories": {
+    "alphabet": {
+      "description": "ISL Alphabet (A-Z) - Static hand shapes",
+      "type": "static",
+      "count": 26,
+      "signs": [
+        "A", "B", "C", "D", "E", "F", "G", "H", "I", "J",
+        "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T",
+        "U", "V", "W", "X", "Y", "Z"
+      ]
+    },
+    "numbers": {
+      "description": "Numbers 0-9",
+      "type": "static",
+      "count": 10,
+      "signs": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+    },
+    "greetings": {
+      "description": "Common Greetings & Phrases",
+      "type": "mixed",
+      "count": 15,
+      "signs": [
+        "HELLO", "GOODBYE", "THANK_YOU", "PLEASE", "SORRY",
+        "YES", "NO", "HELP", "STOP", "WAIT",
+        "AGAIN", "MORE", "GOOD", "BAD", "OK"
+      ]
+    },
+    "basic_needs": {
+      "description": "Basic Needs & Essential Words",
+      "type": "mixed",
+      "count": 15,
+      "signs": [
+        "WATER", "FOOD", "EAT", "DRINK", "SLEEP",
+        "SICK", "PAIN", "DOCTOR", "TOILET", "HOME",
+        "SCHOOL", "WORK", "MONEY", "TIME", "PHONE"
+      ]
+    },
+    "people": {
+      "description": "People & Pronouns",
+      "type": "mixed",
+      "count": 10,
+      "signs": [
+        "I", "YOU", "HE_SHE", "WE", "THEY",
+        "MOTHER", "FATHER", "FRIEND", "CHILD", "TEACHER"
+      ]
+    },
+    "actions": {
+      "description": "Common Actions / Verbs",
+      "type": "dynamic",
+      "count": 15,
+      "signs": [
+        "GO", "COME", "WANT", "LIKE", "LOVE",
+        "KNOW", "UNDERSTAND", "SEE", "HEAR", "SPEAK",
+        "READ", "WRITE", "GIVE", "TAKE", "BUY"
+      ]
+    },
+    "descriptors": {
+      "description": "Descriptors / Adjectives",
+      "type": "static",
+      "count": 9,
+      "signs": [
+        "BIG", "SMALL", "HOT", "COLD", "FAST",
+        "SLOW", "HAPPY", "SAD", "ANGRY"
+      ]
+    }
+  },
+  "sample_sentences": [
+    {
+      "gloss": "HELLO MY NAME PRIYA",
+      "english": "Hello, my name is Priya.",
+      "description": "Self introduction"
+    },
+    {
+      "gloss": "WATER PLEASE I WANT",
+      "english": "I would like some water, please.",
+      "description": "Basic request"
+    },
+    {
+      "gloss": "TOMORROW SCHOOL GO I",
+      "english": "I will go to school tomorrow.",
+      "description": "Future plan"
+    },
+    {
+      "gloss": "THANK_YOU HELP YOU",
+      "english": "Thank you for your help.",
+      "description": "Expressing gratitude"
+    },
+    {
+      "gloss": "DOCTOR I SICK HELP",
+      "english": "I am sick, doctor please help.",
+      "description": "Medical need"
+    }
+  ]
+}
